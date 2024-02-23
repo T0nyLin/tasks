@@ -27,6 +27,7 @@ public class Main {
         printDeadlinesUsingStream(tasksData);
 
         ArrayList<Task> filteredList = filterByString(tasksData, "11");
+        System.out.println(filteredList);
 
     }
 
